@@ -12,3 +12,7 @@ Except for a minor addition of code for exctracting the iOS User-Agent, Everythi
 Since UIAppDelegate does not expose any .Net style application lifecycle events, you will need to call the associated methods (OnApplicationActivated and OnApplicationDeactivated) of the EasyTracker object yourself if you want to track the lifecycle using Google Analytics. 
 
 The same applies to global handling of unhandled exceptions. You will have to wrap your app's Main() method with a try catch block and invoke EasyTracker.OnApplicationUnhandledException.
+
+## License
+
+MS-PL.  See LICENSE file.
